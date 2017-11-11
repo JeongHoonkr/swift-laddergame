@@ -15,7 +15,7 @@ struct ResultView {
         case horizontalLine = "|"
         case whiteSpace = "     "
     }
-   
+    
     // 0. LadderGame의 인스턴스 생성
     private let ladderGame : LadderGame
     init (_ ladderGame: LadderGame) {
@@ -51,7 +51,7 @@ struct ResultView {
     }
     
     // 4. 출력기능만 담당하는 함수 (사다리와 참가자를 출력)
-     func printFullLadder (){
+      func printFullLadder (){
         printLadder()
         printNames()
     }
